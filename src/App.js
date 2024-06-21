@@ -1,12 +1,10 @@
 import React from 'react';
-import Mirror from './Mirror';
-
-
+import Calculator from './Calculator.js'
 const App = () => {
   return (
     <>
       <div className='container'>
-          <Mirror />
+        <Calculator />
       </div>
     </>
   )

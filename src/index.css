@@ -2,9 +2,8 @@
   padding: 0;
   margin: 0;
   font-family: "Geologica", sans-serif;
-  color: azure;
-  font-weight: 800;
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 900;
 }
 .container {
   background-image: url(./pict.jpg);
@@ -17,27 +16,26 @@
   align-items: center;
 }
 
-.mirror{
-  background-color: rgb(236, 227, 236);
-  width: auto;
-  height: auto;
-  padding: 20px;
+.calc{
+  width: 50%;
+  height: 50%;
+  background-color: transparent;
+  margin-top: 40px;
 }
-h3{
-  color: red;
-  padding: 10px;
-}
-
 input{
   border: none;
-  width: 400px;
-  height: 30px;
-  color: black;
-  padding: 10px;
-  margin-left: 12px;
+  background-color:gainsboro;
+  width: auto;
+  padding: 5px;
+  margin: 5px;
 }
-.hello{
-  color: blueviolet;
+button{
+  width: 45px;
+  height: 45px;
+  border: none;
+  margin-right: 20px;
 }
-
-
+h1{
+  color: white;
+  font-size: 40px;
+}
